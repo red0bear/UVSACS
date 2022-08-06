@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html style="width:auto;height:auto;margin:0;padding:0;">
+<title> GLADIC - UNIVERSAL VIDEO SHARE AGAINST CENSORSHIP </title>
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
+<link rel="stylesheet" href="css/generic.css" />
+<script src="class/genericclasswork.js"></script>
+<style type="text/css">
+</style>
+</head>
+<body  oncontextmenu="return false;" class="overlay" >
+
+<div class="tab">
+  <button class="tablinks" onclick="choosetabs(event, 'videoplayer')">PLAYER</button>
+  <button class="tablinks" onclick="choosetabs(event, 'videolist')" id="defaultOpen">VIDEO LISTA</button>
+</div>
+
+<!-- Tab content -->
+<div id="videoplayer" style="height:90%; width:90%;" class="tabcontent centerimg" >
+
+	<video  oncontextmenu="return false;" class="centerimg" width="1600" height="800"   allowfullscreen controls autoplay muted id="video">
+	</video>
+</div>
+
+<div id="videolist"  class="tabcontent grid-container scroll" multiple>
+	<div class="grid-item"><button class="buttongn" onclick="updateSource(1);"></button></div>
+	<div class="grid-item"><button class="buttongn" onclick="updateSource(2);"></button></div>
+	<div class="grid-item"><button class="buttongn" onclick="updateSource(3);"></button></div>			  	
+</div>
+
+<script>
+//<![CDATA[	
+
+document.getElementById("defaultOpen").click();
+	
+//]]>
+</script>
+</body>
+</html>
