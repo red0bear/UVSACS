@@ -155,13 +155,13 @@ function updateSource(currentSource) {
    video.preload="auto";
                     
    if(currentSource === 1)
-   	URLF = '99294720987uhfp3hf0q3h08qy80qhiq08qhb80/OJvFaQDvgjsLaIhKUesGPTnjgEaaQBUtkwocoPhvcoxMJgzGSrTypQmYWwtllNxUITuUyTqWxwpxBAHZTSDWNwhyszZrrUPcQJbgIFOmbYYYnFLYYQACBxCJorPNiuWmLNOlrmmMQYFzqRuovXSgoqshXsOXiOstZeWUspUYDwbsKOctHKWXcwhGCxPSCrCuYrrUSnfh.mp4';
+   	URLF = 'video/.mp4';
    	
    if(currentSource === 2) 
-	URLF = '99294720987uhfp3hf0q3h08qy80qhiq08qhb80/qfhCTgLxZcZkRMiWypKqlJAInTxCzJVmkIzcVlhpNJBuipAGmHUrqAvKaeVCYkYCGjaxTTEzpZoOLUaETorSMMCHptUNIoNemDLFQctoYGbhGLpkgjCftbIkezqyBybXGUoEYFDAObHAepisIKHWYCLpXmsvUsbEYSAOphlVunVeoFIlVGwpfHfXFBVbegzUSgroEEYO.mp4';
+	URLF = 'video/.mp4';
 
   if(currentSource === 3)
-  	URLF = '99294720987uhfp3hf0q3h08qy80qhiq08qhb80/SsUBISwAUyNllSdOvFAeYVLOtTctgBSkyfjOVRBJOqZMxqwhCkTQUosOuJZGtmXwKWtoDfRXpveKyrvQBERIuHZTCRSLnEpsjWzExXkAEAVXFyvISaAYIDzMBoEOvJXoZRsUeTrdzSxdthlvAyNnEMRCWGTTkznWEiXnqLIJNIrCjwaorfSwcVcQAlfYKxzpCXKFERPP.mp4';
+  	URLF = 'video/.mp4';
   
  
   if ('MediaSource' in window && MediaSource.isTypeSupported(mimeCodec)) {
