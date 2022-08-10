@@ -20,5 +20,6 @@ Decentralized video plataform to avoid censorship from big techs and related abu
  
 ## CONFIGURE HTML
 
+Here i provide a simple html base to user post his videos without much worry. This html have intention to broadcast knownledge among people who still blind and sell all his data to others, stalkers or any other type of jerky people around. More updates will come soon as possible or not .   
 
 ## CONFIGURE TOR
