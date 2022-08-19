@@ -22,7 +22,7 @@ Decentralized video plataform to avoid censorship from big techs and related abu
 
 Here i provide a simple html base to user post his videos without much worry. This html have intention to broadcast knownledge among people who still blind and sell all his data to others, stalkers or any other type of jerky people around. More updates will come soon as possible or not .   
 
-## CONFIGURE TOR
+## CONFIGURE TOR --> https://www.torproject.org/
 
  Tor is a connection-oriented anonymizing communication service. Users choose a source-routed path through a set of nodes, and negotiate a "virtual circuit" through the network, in which each node knows its predecessor and successor, but no others. Traffic flowing down the circuit is unwrapped by a symmetric key at each node, which reveals the downstream node.
 
