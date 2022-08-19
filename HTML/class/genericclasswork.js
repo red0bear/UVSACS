@@ -226,21 +226,8 @@ function updateSource(currentSource) {
    
    video = document.querySelector('video');
    video.preload="auto";
-<<<<<<< HEAD
-                    
-   if(currentSource === 1)
-   	URLF = 'video/.mp4';
-   	
-   if(currentSource === 2) 
-	URLF = 'video/.mp4';
-
-  if(currentSource === 3)
-  	URLF = 'video/.mp4';
-  
-=======
              
   URLF = urls[currentSource];
->>>>>>> 2a0de06 (new change to make videos more playable.)
  
   if ('MediaSource' in window && MediaSource.isTypeSupported(mimeCodec)) {
         mediaSource = new MediaSource();
