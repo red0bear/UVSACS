@@ -14,7 +14,7 @@ Decentralized video plataform to avoid censorship from big techs and related abu
 5. Lie to people is not freespeech; is ponzi scam
 6. Both sides can tell lies, but never will try admit is wrong
 
-## CONFIGURE NGINX
+## CONFIGURE NGINX --> https://nginx.org/en/
 
  Linux distro can provide you nginx but if you wish more resources you need a comercial product instead. Inside this repo we have a nginx.conf where goes basic conf server. if you need a ssl you need a create a snippets; those files on linux ususally are located on /etc/nginx. 
  
